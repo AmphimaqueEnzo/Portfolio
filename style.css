@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif
+}
+
+.header {
+    height: 100vh;
+    background-image:url(chemin parcouru(Site internet/image.jpg));
+}
+
+.logo {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.navbar {
+    padding-top:50 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:24 px;
+    gap: 30px;
+}
+
+.a {
+    color: rgb(164, 244, 244);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.p,h1 {
+    color: white;
+}
+
+.h1 {
+    font-family: serif;
+    font-size: 4em;
+}
+
+.p {
+    font-size: 1.5em;
+    letter-spacing: 5px;
+}
+
+.main-title {
+    text-align: center;
+    margin-top: 50vh;
+}
+
+.subtitle {
+    margin-top: 1em;
+    color: rgb(244, 244, 151);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    border: 2px solid rgb(87, 87, 87);
+    padding: 14px;
+    gap: 2.5em;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
