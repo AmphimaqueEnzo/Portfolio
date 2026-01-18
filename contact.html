@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Enzo Amphimaque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html">Accueil</a>
+        <img class="logo" src="Site internet/image.jpg" alt="logo">
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="main-title">
+        <h1>Me contacter</h1>
+        <p class="subtitle">Projet, stage ou collaboration</p>
+    </div>
+</header>
+
+<section class="contact-container">
+
+    <div class="contact-card">
+        <h2>📞 Coordonnées</h2>
+        <ul>
+            <li>📞 <a href="tel:+33622043639">06 22 04 36 39</a></li>
+            <li>✉️ <a href="mailto:enzo.amphimaque@email.com">enzo.amphimaque@email.com</a></li>
+        </ul>
+    </div>
+
+    <div class="contact-card">
+        <h2>🔗 Réseaux</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com" target="_blank">GitHub</a></li>
+        </ul>
+    </div>
+
+</section>
+
+<section class="form-section">
+    <form>
+        <label for="name">Nom</label>
+        <input id="name" type="text" placeholder="Ex : Fabrice">
+
+        <p id="name-error" class="error hidden">Le nom ne doit pas être vide</p>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="exemple@email.com">
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Votre message..."></textarea>
+
+        <input type="submit" value="Envoyer">
+    </form>
+</section>
+
+<div class="back-home">
+    <a href="index.html">← Retour à l’accueil</a>
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
